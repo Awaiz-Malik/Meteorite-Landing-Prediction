@@ -11,7 +11,7 @@ This Project is combined effort of my members
 ## Table of Contents
 - [Installation](#installation)
 - [Data Source](#data-source)
-- [Exploratory data analysis (EDA)](#Exploratory-data-analysis-(EDA))
+- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 - [Filtering Meteorite Fell Data](#Filtering-Meteorite-Fell-Data)
 - [Applying Different Interpolation Techniques](#Applying-Different-Interpolation-Techniques)
 - [Applying Deep Learning and Machine Learning](#Applying-Deep-Learning-and-Machine-Learning)
@@ -43,7 +43,7 @@ Upon obtaining the dataset, several preprocessing steps were undertaken to enhan
 
 These preprocessing steps aim to enhance the dataset's quality and relevance for subsequent analysis and visualization in the Meteorite Explorer project.
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis
 
 1. **Geospatial Distribution (Map):**
    - Worldwide meteorite landings with mass-indicated markers.
