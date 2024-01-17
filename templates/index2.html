@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id = "header"class="header">
+        <video autoplay loop class="background-video" muted plays-inline>
+            <source src = "{{ url_for('static', filename='graphics/meteorite2.mp4') }}"  type="video/mp4">
+        </video>
+        <nav >
+            <a href="#" onclick="reloadPage()" ><img src="{{ url_for('static', filename='graphics/logo.png') }}" class="logo"></a>
+            <ul class="nav-links">
+                <li><a href="#" onclick="reloadPage()" class = "home">HOME</a></li>
+                <li><a href="https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh/data_preview" target="_blank">DATASET</a></li>
+                <li><a href="https://www.linkedin.com/in/iztalha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LINKEDIN</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <p > Enter Year For Prediction</p>
+            <form id="myForm" action="/" method="post">
+                <input type="number" name="user_input" placeholder="&#x270e;  Enter year" required>
+                <button type="submit">PREDICT</button>
+            </form>
+
+            <div class="category-list">
+                <div class="category">
+                    <img src="{{ url_for('static', filename='graphics/numpy.png') }}" class="logo">
+                </div>
+                <div class="category"><img src="{{ url_for('static', filename='graphics/pandas.png') }}" class="logo">
+                </div>
+                <div class="category">
+                    <img src="{{ url_for('static', filename='graphics/plotly.png') }}" class="logo">
+                </div>
+                <div class="category">
+                    <img src="{{ url_for('static', filename='graphics/seaborn.png') }}" class="logo">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function reloadPage() {
+            // Reload the current page
+            location.reload();
+        }
+    </script>
+</body>
+</html>
