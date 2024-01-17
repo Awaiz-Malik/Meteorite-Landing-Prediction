@@ -15,7 +15,7 @@ This Project is combined effort of my members
 - [Filtering Meteorite Fell Data](#Filtering-Meteorite-Fell-Data)
 - [Applying Different Interpolation Techniques](#Applying-Different-Interpolation-Techniques)
 - [Applying Deep Learning and Machine Learning](#Applying-Deep-Learning-and-Machine-Learning)
-- [Web Application](#web-application)
+- [Web Application Overview](#web-application-overview)
 - [Project Collaboration and Contributions](#Project-Collaboration-and-Contributions)
 
 
